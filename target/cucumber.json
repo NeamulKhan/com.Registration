@@ -1,0 +1,46 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "verify user can successfully register",
+        "description": "",
+        "id": "this-feature-is-for-user-registration;verify-user-can-successfully-register",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18090373282,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Launch \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 8
+                }
+              ],
+              "location": "Registration.launch(String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Registration1"
+          }
+        ]
+      }
+    ],
+    "name": "this feature is for user registration",
+    "description": "",
+    "id": "this-feature-is-for-user-registration",
+    "keyword": "Feature",
+    "uri": "Registration.feature"
+  }
+]
